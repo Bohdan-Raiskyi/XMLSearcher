@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+		<student NAME="Коваль Юрій Віталійович" FACULTY="Фізико-математичний факультет" BUILDNUM="14" ROOMNUM="824" RESTIME="2023-2027" DOCNUM="325244" />
+		<student NAME="Іваненко Марія Олександрівна" FACULTY="Біологічний факультет" BUILDNUM="12" ROOMNUM="1024" RESTIME="2022-2026" DOCNUM="323145" />
+		<student NAME="Петренко Андрій Сергійович" FACULTY="Історичний факультет" BUILDNUM="7" ROOMNUM="324" RESTIME="2023-2027" DOCNUM="326754" />
+		<student NAME="Сидоренко Катерина Дмитрівна" FACULTY="Фізико-математичний факультет" BUILDNUM="7" ROOMNUM="927" RESTIME="2024-2028" DOCNUM="325678" />
+		<student NAME="Кравченко Дмитро Миколайович" FACULTY="Факультет іноземних мов" BUILDNUM="9" ROOMNUM="524" RESTIME="2023-2027" DOCNUM="325890" />
+		<student NAME="Шевченко Ольга Ігорівна" FACULTY="Факультет журналістики" BUILDNUM="5" ROOMNUM="874" RESTIME="2021-2025" DOCNUM="325456" />
+		<student NAME="Гнатюк Віктор Васильович" FACULTY="Факультет іноземних мов" BUILDNUM="16" ROOMNUM="102" RESTIME="2023-2027" DOCNUM="324876" />
+		<student NAME="Онопенко Анна Леонідівна" FACULTY="Факультет соціології" BUILDNUM="8" ROOMNUM="664" RESTIME="2022-2026" DOCNUM="324321" />
+		<student NAME="Дорошенко Олександр Борисович" FACULTY="Хімічний факультет" BUILDNUM="10" ROOMNUM="914" RESTIME="2023-2027" DOCNUM="327654" />
+		<student NAME="Литвиненко Валерія Володимирівна" FACULTY="Факультет медицини" BUILDNUM="14" ROOMNUM="1124" RESTIME="2023-2027" DOCNUM="329012" />
+		<student NAME="Мельник Юрій Михайлович" FACULTY="Факультет права" BUILDNUM="3" ROOMNUM="774" RESTIME="2021-2025" DOCNUM="323214" />
+		<student NAME="Романюк Світлана Анатоліївна" FACULTY="Фізико-математичний факультет" BUILDNUM="16" ROOMNUM="115" RESTIME="2024-2028" DOCNUM="325678" />
+		<student NAME="Козак Олексій Іванович" FACULTY="Філософський факультет" BUILDNUM="4" ROOMNUM="344" RESTIME="2023-2027" DOCNUM="325634" />
+		<student NAME="Лукашенко Ірина Миколаївна" FACULTY="Факультет комп'ютерних наук" BUILDNUM="18" ROOMNUM="424" RESTIME="2022-2026" DOCNUM="328974" />
+		<student NAME="Мартинюк Артем Анатолійович" FACULTY="Факультет іноземних мов" BUILDNUM="16" ROOMNUM="234" RESTIME="2023-2027" DOCNUM="323890" />
+		<student NAME="Поліщук Василь Андрійович" FACULTY="Факультет географії" BUILDNUM="11" ROOMNUM="724" RESTIME="2023-2027" DOCNUM="324129" />
+		<student NAME="Гончаренко Оксана Петрівна" FACULTY="Фізико-математичний факультет" BUILDNUM="16" ROOMNUM="874" RESTIME="2024-2028" DOCNUM="326890" />
+		<student NAME="Соколенко Тарас Ігорович" FACULTY="Факультет філології" BUILDNUM="6" ROOMNUM="124" RESTIME="2021-2025" DOCNUM="325432" />
+		<student NAME="Вовк Євгенія Романівна" FACULTY="Факультет соціальних наук" BUILDNUM="13" ROOMNUM="984" RESTIME="2023-2027" DOCNUM="328910" />
+		<student NAME="Бондаренко Павло Юрійович" FACULTY="Фізико-математичний факультет" BUILDNUM="13" ROOMNUM="724" RESTIME="2022-2026" DOCNUM="324567" />
+</Students>

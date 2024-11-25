@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab2MAUI.MainPage"
+             BackgroundColor="LightGray">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Start">
+
+            <Label Text="XML Dorm Resident Searcher" FontSize="24" FontAttributes="Bold" FontFamily="Roboto" Margin="0,20,0,0" HorizontalOptions="Center"/>
+
+            <StackLayout Grid.Column="1" Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,0">
+                <Button x:Name="OpenFileButton" Text="Open file" Clicked="OnOpenFileButton" HorizontalOptions="Center" WidthRequest="220" Margin="20,0,0,0" BackgroundColor="Navy"/>
+                <Button x:Name="SearchBtn" Text="Search" Clicked="SearchBtnHandler" HorizontalOptions="Center" WidthRequest="220" Margin="20,0,0,0" BackgroundColor="Navy"/>
+                <Button x:Name="ClearBtn" Text="Clear" Clicked="ClearFields" HorizontalOptions="Center" WidthRequest="220" Margin="20,0,0,0" BackgroundColor="Navy"/>
+                <Button x:Name="TransformToHTMLBtn" Text="Convert to HTML" Clicked="OnTransformToHTMLBtnClicked" HorizontalOptions="Center" WidthRequest="220" Margin="20,0,0,0" BackgroundColor="Navy"/>
+                <Button x:Name="ExitButton" Text="Exit" Clicked="OnExitBtnClicked" HorizontalOptions="Center" WidthRequest="220" Margin="20,0,0,0" BackgroundColor="Navy"/>
+            </StackLayout>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                
+                <ScrollView Grid.Column="1" Grid.RowSpan="11" VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Editor x:Name="editor" IsReadOnly="true" AutoSize="TextChanges"/>
+                    </StackLayout>
+                </ScrollView>
+                
+                <StackLayout x:Name="RadioButtons" Grid.Column="0" Grid.Row="0" Orientation="Horizontal" Margin="50,20,0,0">
+                    <RadioButton x:Name="SaxBtn" Content="SAX API"/>
+                    <RadioButton x:Name="DomBtn" Content="DOM API" Margin="60,0,0,0"/>
+                    <RadioButton x:Name="LinqBtn" Content="LINQ to XML" Margin="60,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop1" Grid.Column="0" Grid.Row="1" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="NameCheckBox"/>
+                    <Label Text="Студент/ка" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="NamePicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop2" Grid.Column="0" Grid.Row="2" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="FacultyCheckBox"/>
+                    <Label Text="Факультет" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="FacultyPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop3" Grid.Column="0" Grid.Row="3" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="BuildNumCheckBox"/>
+                    <Label Text="Гуртожиток" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="BuildNumPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop4" Grid.Column="0" Grid.Row="4" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="RoomNumCheckBox"/>
+                    <Label Text="Кімната" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="RoomNumPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop5" Grid.Column="0" Grid.Row="5" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="ResTimeCheckBox"/>
+                    <Label Text="Час дії договору" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="ResTimePicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout x:Name="Prop6" Grid.Column="0" Grid.Row="6" Orientation="Horizontal" Margin="50,10,0,0" VerticalOptions="Start">
+                    <CheckBox x:Name="DocNumCheckBox"/>
+                    <Label Text="Номер перепустки" WidthRequest="100" FontSize="15" Margin="0,5,20,0"/>
+                    <Picker x:Name="DocNumPicker" WidthRequest="220" Margin="95,0,0,0"/>
+                </StackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
